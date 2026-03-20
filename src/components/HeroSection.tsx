@@ -1,6 +1,6 @@
 import { Phone, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import grizzlyBear from "@/assets/grizzly-bear.png";
+import goldenBear from "@/assets/golden-bear-logo.png";
 
 const HeroSection = () => {
   return (
@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 flex flex-col lg:flex-row items-center gap-8 lg:gap-16 pt-20">
         {/* Bear graphic */}
         <div className="flex-shrink-0 w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 opacity-80">
-          <img src={grizzlyBear} alt="Grizzly bear logo" className="w-full h-full object-contain drop-shadow-[0_0_40px_hsl(43_52%_54%_/_0.3)]" />
+          <img src={goldenBear} alt="Grizzly bear logo" className="w-full h-full object-contain drop-shadow-[0_0_40px_hsl(43_52%_54%_/_0.3)]" />
         </div>
 
         {/* Text */}
