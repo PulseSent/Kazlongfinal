@@ -63,6 +63,56 @@ const testimonials = [
     stars: 5,
     time: "3 months ago",
   },
+  {
+    text: "Kaz did an amazing job for me! He was very responsive and went out of his way to meet me. Very friendly and kept me updated as I needed.",
+    name: "Jeremy Mcallister",
+    stars: 5,
+    time: "4 months ago",
+  },
+  {
+    text: "This dude does not shed a single fear and has no hesitation to fight for what's right. I've been worshipping this guy for five years for something that did not happen 5 years ago. No one wanted to make my video evidence relevant, but this guy did!!!",
+    name: "Jared",
+    stars: 5,
+    time: "2 months ago",
+  },
+  {
+    text: "If you're looking for someone that will be fully committed to your case, I would go with Kaz Long Law Office. I felt nothing less than confident stepping into the courts with my lawyer. Excellent service, I am very pleased.",
+    name: "Solomen Scott",
+    stars: 5,
+    time: "4 months ago",
+  },
+  {
+    text: "Kaz was awesome! Communicative, attentive and understanding to the needs of my case. I couldn't have asked for someone better to help guide me through a time where I was very unsure. Would recommend Kaz to anyone else that needs legal counsel!",
+    name: "Jacob",
+    stars: 5,
+    time: "7 months ago",
+  },
+  {
+    text: "Called Kaz on a Sunday with a last minute case Monday morning for a family member. Not only did he answer on Sunday, he offered great advice and as soon as I paid the retainer he had a visit to the jail scheduled within a couple hours that same day. Eventually got all charges dropped! Will definitely recommend him to anyone.",
+    name: "Craig Watson",
+    stars: 5,
+    time: "7 months ago",
+  },
+  {
+    text: "Kaz Long is an outstanding attorney. He helped me through a driving while barred charge with professionalism, honesty, and real care. He explained everything clearly, always kept me informed, and fought hard for the best outcome. Thanks to him, my case turned out far better than I expected. Highly recommend!",
+    name: "Uriel Almanza",
+    stars: 5,
+    time: "8 months ago",
+  },
+  {
+    text: "I first hired Kaz approximately 6 years ago. His work was exceptional, and I have continued to use him since that time. He does great work, and is always available. I've been more than pleased! I would highly recommend.",
+    name: "Steven",
+    stars: 5,
+    time: "a year ago",
+  },
+  {
+    text: "Attorney Kaz Long provided outstanding representation for my brother, who was charged with first-degree sexual assault and faced a potential 20-year prison sentence. Kaz fought tirelessly on his behalf, and thanks to his dedication and expertise, we were able to get the charges reduced to a misdemeanor. Kaz is one of the best Criminal Defense Attorneys that I have worked with personally and professionally.",
+    name: "Erica Swain",
+    stars: 5,
+    time: "a year ago",
+  },
+    time: "3 months ago",
+  },
 ];
 
 const TestimonialsSection = () => {
