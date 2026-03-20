@@ -111,8 +111,6 @@ const testimonials = [
     stars: 5,
     time: "a year ago",
   },
-    time: "3 months ago",
-  },
 ];
 
 const TestimonialsSection = () => {
