@@ -1,6 +1,6 @@
 import { Phone, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import grizzlyBear from "@/assets/grizzly-bear.png";
+import goldenBear from "@/assets/golden-bear-logo.png";
 
 const HeroSection = () => {
   return (
