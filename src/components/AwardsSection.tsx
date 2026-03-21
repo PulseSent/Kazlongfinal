@@ -50,9 +50,9 @@ const AwardsSection = () => {
             <ChevronLeft className="w-8 h-8" />
           </button>
 
-          <div className="flex items-center justify-center gap-4 md:gap-8">
+          <div className="flex items-center justify-center gap-6 md:gap-10">
             {/* Left small */}
-            <div className="hidden md:flex w-28 h-28 items-center justify-center opacity-40 transition-all duration-500">
+            <div className="hidden md:flex w-40 h-40 items-center justify-center opacity-30 scale-90 transition-all duration-700 ease-in-out">
               <img
                 src={awards[getIndex(-1)].src}
                 alt={awards[getIndex(-1)].alt}
@@ -61,16 +61,16 @@ const AwardsSection = () => {
             </div>
 
             {/* Center large */}
-            <div className="w-48 h-48 md:w-64 md:h-64 flex items-center justify-center transition-all duration-500">
+            <div className="w-56 h-56 md:w-80 md:h-80 lg:w-96 lg:h-96 flex items-center justify-center transition-all duration-700 ease-in-out">
               <img
                 src={awards[current].src}
                 alt={awards[current].alt}
-                className="max-w-full max-h-full object-contain drop-shadow-[0_0_30px_hsl(43_52%_54%_/_0.3)]"
+                className="max-w-full max-h-full object-contain drop-shadow-[0_0_40px_hsl(43_52%_54%_/_0.35)]"
               />
             </div>
 
             {/* Right small */}
-            <div className="hidden md:flex w-28 h-28 items-center justify-center opacity-40 transition-all duration-500">
+            <div className="hidden md:flex w-40 h-40 items-center justify-center opacity-30 scale-90 transition-all duration-700 ease-in-out">
               <img
                 src={awards[getIndex(1)].src}
                 alt={awards[getIndex(1)].alt}
