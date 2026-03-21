@@ -37,7 +37,7 @@ const AwardsSection = () => {
               <img
                 src={award.src}
                 alt={award.alt}
-                className="max-w-full max-h-full object-contain drop-shadow-[0_0_20px_hsl(43_52%_54%_/_0.2)]"
+                className="max-w-full max-h-full object-contain drop-shadow-[0_0_20px_hsl(43_52%_54%_/_0.2)] mix-blend-lighten"
               />
             </div>
           ))}
