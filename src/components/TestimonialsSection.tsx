@@ -151,7 +151,7 @@ const TestimonialsSection = () => {
           {/* Navigation buttons */}
           <button
             onClick={() => { prev(); setIsAutoPlaying(false); }}
-            className="absolute -left-4 md:-left-12 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full border border-primary/40 bg-card flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            className="absolute left-1 md:-left-12 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full border border-primary/40 bg-card flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="w-5 h-5" />
