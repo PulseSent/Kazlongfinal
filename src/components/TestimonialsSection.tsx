@@ -1,5 +1,6 @@
 import { Star, Quote, ChevronLeft, ChevronRight } from "lucide-react";
 import { useScrollFadeIn } from "@/hooks/use-scroll-fade-in";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { useState, useEffect, useCallback } from "react";
 
 const testimonials = [
@@ -117,8 +118,9 @@ const TestimonialsSection = () => {
   const ref = useScrollFadeIn();
   const [current, setCurrent] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const isMobile = useIsMobile();
 
-  const itemsPerView = typeof window !== "undefined" && window.innerWidth >= 768 ? 3 : 1;
+  const itemsPerView = isMobile ? 1 : 3;
   const maxIndex = testimonials.length - itemsPerView;
 
   const next = useCallback(() => {
@@ -149,14 +151,14 @@ const TestimonialsSection = () => {
           {/* Navigation buttons */}
           <button
             onClick={() => { prev(); setIsAutoPlaying(false); }}
-            className="absolute -left-4 md:-left-12 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full border border-primary/40 bg-card flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            className="absolute left-1 md:-left-12 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full border border-primary/40 bg-card flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
           <button
             onClick={() => { next(); setIsAutoPlaying(false); }}
-            className="absolute -right-4 md:-right-12 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full border border-primary/40 bg-card flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            className="absolute right-1 md:-right-12 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full border border-primary/40 bg-card flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             aria-label="Next testimonial"
           >
             <ChevronRight className="w-5 h-5" />
