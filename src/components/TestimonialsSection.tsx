@@ -118,8 +118,9 @@ const TestimonialsSection = () => {
   const ref = useScrollFadeIn();
   const [current, setCurrent] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const isMobile = useIsMobile();
 
-  const itemsPerView = typeof window !== "undefined" && window.innerWidth >= 768 ? 3 : 1;
+  const itemsPerView = isMobile ? 1 : 3;
   const maxIndex = testimonials.length - itemsPerView;
 
   const next = useCallback(() => {
