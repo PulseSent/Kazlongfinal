@@ -1,5 +1,6 @@
 import { Star, Quote, ChevronLeft, ChevronRight } from "lucide-react";
 import { useScrollFadeIn } from "@/hooks/use-scroll-fade-in";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { useState, useEffect, useCallback } from "react";
 
 const testimonials = [
