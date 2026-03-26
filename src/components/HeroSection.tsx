@@ -1,4 +1,4 @@
-import { Phone, MessageSquare } from "lucide-react";
+import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import goldenBear from "@/assets/golden-bear-logo.png";
 
@@ -35,17 +35,11 @@ const HeroSection = () => {
             Fierce Defense. Proven Results.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+          <div className="flex justify-center lg:justify-start pt-4">
             <a href="tel:4026817294">
               <Button variant="gold" size="xl" className="w-full sm:w-auto">
                 <Phone className="w-5 h-5" />
                 Call Now: 402-681-7294
-              </Button>
-            </a>
-            <a href="mailto:kazclong@gmail.com">
-              <Button variant="goldOutline" size="xl" className="w-full sm:w-auto">
-                <MessageSquare className="w-5 h-5" />
-                Email Us
               </Button>
             </a>
           </div>
