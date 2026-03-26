@@ -42,13 +42,10 @@ const HeroSection = () => {
                 Call Now: 402-681-7294
               </Button>
             </a>
-            <a href="#contact">
-              <Button variant="goldOutline" size="xl" className="w-full sm:w-auto" onClick={(e) => {
-                e.preventDefault();
-                document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
-              }}>
+            <a href="mailto:kazclong@gmail.com">
+              <Button variant="goldOutline" size="xl" className="w-full sm:w-auto">
                 <MessageSquare className="w-5 h-5" />
-                Free Consultation
+                Email Us
               </Button>
             </a>
           </div>
