@@ -40,6 +40,10 @@ const ContactSection = () => {
             </Button>
           </a>
 
+          <a href="mailto:kazclong@gmail.com" className="block font-body text-lg text-foreground/80 hover:text-primary transition-colors">
+            kazclong@gmail.com
+          </a>
+
           <div className="flex items-center gap-2 text-muted-foreground justify-center">
             <Lock className="w-4 h-4" />
             <p className="font-body text-sm italic">All consultations are confidential.</p>
