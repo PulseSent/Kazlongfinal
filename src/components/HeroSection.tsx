@@ -35,12 +35,15 @@ const HeroSection = () => {
             Fierce Defense. Proven Results.
           </p>
 
-          <div className="flex justify-center lg:justify-start pt-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
             <a href="tel:4026817294">
               <Button variant="gold" size="xl" className="w-full sm:w-auto">
                 <Phone className="w-5 h-5" />
                 Call Now: 402-681-7294
               </Button>
+            </a>
+            <a href="mailto:kazclong@gmail.com" className="font-body text-lg text-foreground/80 hover:text-primary transition-colors">
+              kazclong@gmail.com
             </a>
           </div>
         </div>
